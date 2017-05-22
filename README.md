@@ -6,7 +6,7 @@
 
 3. Copy the `.theanorc.txt` file from this repository into your `%USER%` directory and update as appropriate. Maybe update the `cnmem` setting if theano is using too much memory.
 
-4. Create a new conda env using the template in this repository (theano-env.yml):
+4. Create a new conda env using a template in this repository:
 ```
-conda env create -f theano-env.yml
+conda env create -f conda-py27-env.yml
 ```
