@@ -1,0 +1,14 @@
+[global]
+floatX = float32
+device = cuda0
+
+[lib]
+cnmem = 0.8
+
+[cuda]
+root = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
+
+[dnn]
+enabled=True
+include_path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include
+library_path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64
