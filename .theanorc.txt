@@ -2,8 +2,8 @@
 floatX = float32
 device = cuda0
 
-[lib]
-cnmem = 0.8
+[gpuarray]
+preallocate = 0.75
 
 [cuda]
 root = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
